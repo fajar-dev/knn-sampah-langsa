@@ -14,14 +14,8 @@ class Data extends Model
     public $timestamps = true;
 
     protected $fillable = [
-        'family_number_id',
-        'name',
-        'district',
-        'income',
-        'spending',
-        'job',
-        'disability_type',
-        'residence_condition',
-        'electricity_capacity'
+        'year',
+        'organic',
+        'unorganic',
     ];
 }
